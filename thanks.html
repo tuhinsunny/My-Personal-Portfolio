@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submitted</title>
+    <style>
+        .thanku{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            border: 2px solid black;
+            margin-top: 10%;
+            background-color: #4e5863;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        h1{
+            color: white;
+            font-weight: 900;
+            font-size: 50px;
+            margin-bottom: 0;
+        }
+        h2{
+            color: white;
+            font-size: 30px;
+        }
+        @media only screen and (max-width:768px) {
+            .thanku{
+                margin-top: 50%;
+                height: 40vh;
+            }
+            img{
+                height: 150px;
+                width: 150px;
+            }
+            h1{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thanku">
+        <img src="check-mark.png" alt="">
+        <h1>Thank You</h1>
+        <h2>The form was submitted successfully.</h2>
+    </div>
+</body>
+</html>
